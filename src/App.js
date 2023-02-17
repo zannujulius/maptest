@@ -14,7 +14,7 @@ function App() {
   const fetchAddress = async (item) => {
     try {
       let res = await axios.get(
-        `http://maps.googleapis.com/maps/api/place/autocomplete/json?input=bada&types=geocode&key=AIzaSyAVnLSLsA6Ou-ggXilNcBk23HctCcsciZA`
+        `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=bada&types=geocode&key=AIzaSyAVnLSLsA6Ou-ggXilNcBk23HctCcsciZA`
       );
       console.log(res.data, "/////");
     } catch (err) {
